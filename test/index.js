@@ -5,7 +5,7 @@ const testCases = require('./test-cases');
 
 describe('clsx', () => {
   withThese(testCases).it(
-    (expected, ...args) => `Returns '${expected}' with ${JSON.stringify(...args)}`,
+    (expected, ...args) => `Returns '${expected}' with ${JSON.stringify(args)}`,
     (expected, ...args) => {
       assert.strictEqual(clsx(...args), expected);
     },
