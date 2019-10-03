@@ -29,6 +29,7 @@ const testCases = [
     [1 && 'bar', { baz: false, bat: null }, 'hello', 'world'],
     'cya',
   ],
+  ['1 2 3 4', 1,2,3,4]
 ];
 
 module.exports = testCases;

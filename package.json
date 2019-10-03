@@ -13,6 +13,7 @@
     "mocha": "^6.2.1"
   },
   "dependencies": {
+    "lodash": "^4.17.15",
     "mocha-each": "^2.0.1"
   }
 }
